@@ -281,6 +281,19 @@ p {
   color: #0b3d28;
   text-align: center;
 }
+.LocationCard h2{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.LocationStat p{
+    font-size: 12px;
+}
+.LocationCard.LocationStat {
+    padding: 20px 10px;
+}
+.LocationCard.LocationStat i{
+    font-size: 32px;
+}
 .ProjectsHeading {
   position: relative;
   width: 85%;
