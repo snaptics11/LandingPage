@@ -281,20 +281,20 @@ p {
   color: #0b3d28;
   text-align: center;
 }
-.LocationCard h2{
-    font-size: 24px;
-    margin-bottom: 0;
+.LocationCard h2 {
+  font-size: 24px;
+  margin-bottom: 0;
 }
-.LocationStat p{
-    font-size: 12px;
+.LocationStat p {
+  font-size: 12px;
 }
 .LocationCard.LocationStat {
-    padding: 20px 10px;
+  padding: 20px 10px;
 }
-.LocationCard.LocationStat i{
-    font-size: 32px;
+.LocationCard.LocationStat i {
+  font-size: 32px;
 }
-.GalleryParent .swiper-slide{
+.GalleryParent .swiper-slide {
   height: 250px;
 }
 .ProjectsHeading {
@@ -634,7 +634,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background: linear-gradient(135deg, #0052d4, #4364f7, #6fb1fc);
-
 }
 .FooterLinks p {
   padding-top: 12px;
@@ -679,7 +678,6 @@ p {
   height: 100%;
   width: 100%;
   object-fit: contain;
-
 }
 .footer a {
   color: white;
@@ -728,14 +726,14 @@ p {
   padding-top: 30px;
   margin-top: 40px;
 }
-.contactCardParent p{
-    padding-top: 0;
+.contactCardParent p {
+  padding-top: 0;
 }
-.contactCardParent h5{
-    padding-bottom: 12px;
+.contactCardParent h5 {
+  padding-bottom: 12px;
 }
-.contact-card{
-    margin-top: 10px;
+.contact-card {
+  margin-top: 10px;
 }
 /* media queries start here */
 .enquiry-btn {
@@ -750,7 +748,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: beige !important;
 
   /* Transparent black */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -760,49 +758,47 @@ p {
 .navbar {
   transition: all 0.4s ease-in-out;
 }
-.modal-header{
-    border-bottom: 0;
+.modal-header {
+  border-bottom: 0;
 }
-.navbar.fixed .nav-link {
-  color: #fff !important;
-}
+
 .modal-content {
-    background-color: #043d9a !important;
-    border-radius: 0 !important;
+  background-color: #043d9a !important;
+  border-radius: 0 !important;
 }
 .modal-body {
-    padding: 40px !important;
+  padding: 40px !important;
 }
 .modal-body .form-control {
-    border-radius: 0;
-    padding: 12px;
+  border-radius: 0;
+  padding: 12px;
 }
 .form-label {
-    margin-bottom: .5rem;
-    color: #000;
+  margin-bottom: 0.5rem;
+  color: #000;
 }
-.modal-title{
-    width: 100%;
-    text-align: center;
-    color: #fff;
+.modal-title {
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
 .btn-close {
-    filter: invert(10); /* Converts black to white */
+  filter: invert(10); /* Converts black to white */
 }
-.modal-content{
-    width: 90% !important;
+.modal-content {
+  width: 90% !important;
 }
 .modal.show .modal-dialog {
-    transform: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  transform: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 @media (max-width: 768px) {
-    .modal-body {
-        padding: 25px !important;
-    }    
+  .modal-body {
+    padding: 25px !important;
+  }
   .shape1 {
     left: 30px;
   }
@@ -1008,9 +1004,9 @@ p {
   }
 }
 @media screen and (max-width: 991px) {
-    .modal-content{
-        width: 100% !important;
-    }
+  .modal-content {
+    width: 100% !important;
+  }
   .navbar.fixed .nav-link {
     color: #000 !important;
   }
@@ -1036,8 +1032,8 @@ p {
 }
 /* Responsive Adjustments */
 @media (max-width: 991px) {
-  .glimpse-card{
-    height:250px !important;
+  .glimpse-card {
+    height: 250px !important;
   }
   button.navbar-toggler.collapsed {
     border: none !important;
@@ -1148,5 +1144,14 @@ p {
   .projectDesc {
     width: 75%;
     margin: 30px auto;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+  .navbar .container-lg.px-5 {
+    padding-inline: 0 !important;
+  }
+  .navbar .nav-link {
+    font-size: 15px;
   }
 }
