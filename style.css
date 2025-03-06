@@ -845,6 +845,8 @@ p {
 
   .container.d-flex.justify-content-between.align-items-center.px-5 {
     padding: 0 !important;
+    flex-direction: column;
+    gap: 10px;
   }
   .stats-section .row {
     flex-direction: column;
