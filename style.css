@@ -294,6 +294,9 @@ p {
 .LocationCard.LocationStat i{
     font-size: 32px;
 }
+.GalleryParent .swiper-slide{
+  height: 250px;
+}
 .ProjectsHeading {
   position: relative;
   width: 85%;
